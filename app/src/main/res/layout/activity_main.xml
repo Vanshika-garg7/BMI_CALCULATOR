@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2CB69"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Bmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal"
+        android:text="BMI Calculator"
+        android:textColor="#000000"
+        android:textSize="37sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="100dp"
+        android:text="Write Your Height In m"
+        android:textColor="#303F9F"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/Height_textbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:ems="10"
+        android:hint="Height"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#685D5D" />
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:text="Write Your Mass In Kg"
+        android:textColor="#0522DB"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/Weight_textbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:ems="10"
+        android:hint="mass"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#685D5D" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#512DA8"
+        android:text="submit" />
+
+    <TextView
+        android:id="@+id/Bmi_result"
+        android:layout_width="199dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="50dp"
+        android:text="Your BMI is 16"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/healthy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:text="healthy"
+        android:textSize="30sp" />
+</LinearLayout>
